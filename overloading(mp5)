@@ -1,0 +1,22 @@
+public class Main {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double add(double a, double b) {
+        return a + b;
+    }
+
+    public String add(String a, String b) {
+        return a + " " + b;
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main();
+
+        System.out.println("[1] Integers: " + obj.add(10, 20));
+        System.out.println("[2] Doubles: " + obj.add(5.5, 4.5));
+        System.out.println("[3] Strings: " + obj.add("Hi", "Guys:)"));
+    }
+}
